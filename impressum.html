@@ -3,40 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home.kevaier.de</title>
+    <title>Impressum</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
-        body { background: #0f172a; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; }
-        
-        /* Container für dein Bild oder Text */
-        .content-container { text-align: center; max-width: 90%; }
-        
-        /* Einstellungen für das Bild */
-        .main-image { max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3); }
-        
-        /* Einstellungen, falls du stattdessen Text nutzt */
-        .main-text { font-size: 1.8rem; font-weight: bold; color: #ffffff; letter-spacing: 1px; }
-
-        /* Unauffälliger Footer ganz unten */
-        footer { position: absolute; bottom: 20px; display: flex; gap: 20px; font-size: 0.8rem; }
-        footer a { color: #475569; text-decoration: none; transition: color 0.2s; }
-        footer a:hover { color: #94a3b8; }
+        body { background: #0f172a; color: #cbd5e1; line-height: 1.6; padding: 40px 20px; display: flex; justify-content: center; }
+        .wrapper { max-width: 650px; width: 100%; }
+        h1 { color: #ffffff; font-size: 1.8rem; margin-bottom: 24px; border-bottom: 1px solid #334155; padding-bottom: 12px; }
+        h2 { color: #f1f5f9; font-size: 1.2rem; margin-top: 28px; margin-bottom: 12px; }
+        p { margin-bottom: 16px; font-size: 0.95rem; }
+        .back-btn { display: inline-block; margin-bottom: 24px; color: #38bdf8; text-decoration: none; font-size: 0.9rem; font-weight: bold; }
+        .back-btn:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
 
-    <div class="content-container">
-        <!-- OPTION A: Ein Bild anzeigen (Tausche 'dein-bild.jpg' gegen den Namen deines Bildes aus) -->
-        <img src="dein-bild.jpg" alt="Logo oder Grafik" class="main-image">
+    <div class="wrapper">
+        <a href="index.html" class="back-btn">&larr; Zurück</a>
 
-        <!-- OPTION B: Falls du lieber Text willst, lösche die Zeile oben und nutze diese hier: -->
-        <!-- <div class="main-text">Hier entsteht etwas Neues.</div> -->
+        <h1>Impressum</h1>
+
+        <h2>Angaben gemäß § 5 DDG</h2>
+        <p style="color: #ffffff; background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+            [Dein Vorname und Nachname]<br>
+            [Deine Straße und Hausnummer]<br>
+            [Deine PLZ und Wohnort]
+        </p>
+
+        <h2>Kontakt</h2>
+        <p style="color: #ffffff; background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+            Telefon: [Deine Telefonnummer]<br>
+            E-Mail: [Deine E-Mail-Adresse]
+        </p>
+
+        <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+        <p style="color: #ffffff; background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+            [Dein Vorname und Nachname]<br>
+            [Deine Straße und Hausnummer]<br>
+            [Deine PLZ und Wohnort]
+        </p>
     </div>
-
-    <footer>
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-    </footer>
 
 </body>
 </html>
